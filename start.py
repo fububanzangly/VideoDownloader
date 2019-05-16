@@ -3,7 +3,7 @@ import getlist,download,time,database
 getlist.name="进击的巨人"
 getlist.zimuzu = "星空字幕组"
 link = getlist.link
-day = time.strftime('%w',time.localtime())
+day = 0
 getlist.getList(getlist.name)
 #print(link)
 print(day)

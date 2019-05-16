@@ -10,8 +10,8 @@ dic={}
 def dump(name,zimuzu,day):
     f = open('db.db','wb')
     dic[name] = zimuzu
-    if dic not in data[day]:
-        data[day].append(dic)
+    if dic not in data[int(day)]:
+        data[int(day)].append(dic)
     f.write(pickle.dumps(data))
     f.close()
 
