@@ -28,7 +28,7 @@
 					 <label for="exampleInputPassword1">字幕组</label><input type="text" class="form-control" name="zimuzu" />
 				</div>
 				<div class="form-group">
-                    <label for="exampleInputEmail1" >所属角色</label><select class="form-control" name="day">
+                    <label for="exampleInputEmail1" >更新日期</label><select class="form-control" name="day">
                     <option>0</option>
 			        <option>1</option>
 			        <option>2</option>
@@ -38,10 +38,36 @@
                     <option>6</option>
 		        </select>
                 </div>
-				<button type="submit" class="btn btn-default">Submit</button>
+				<div class="row clearfix">
+		<div class="col-md-12 column">
+			 <button type="submit" class="btn btn-success btn-lg btn-block" >提交</button>
+		</div>
+	</div>
 			</form>
 		</div>
 	</div>
 </div>
+       <div class="row clearfix">
+		<div class="col-md-2 column">
+		</div>
+		<div class="col-md-8 column">
+			<table class="table">
+             <tbody>
+					{% for line in result %}
+					<tr class="success">
+						<td>
+                            {% for key in line %}
+							{{key}}
+                            {% endfor %}
+
+						</td>
+						{% endfor %}
+					</tr>
+				</tbody>
+        </table>
+    	</div>
+       <div class="col-md-2 column">
+		</div>
+	</div>
 </body>
 </html>

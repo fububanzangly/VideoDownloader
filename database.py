@@ -16,4 +16,7 @@ def dump(name,zimuzu,day):
     f.close()
 
 def load(day):
-    return data[int(day)]
+    if day!=None:
+        return data[int(day)]
+    else:
+        return data
