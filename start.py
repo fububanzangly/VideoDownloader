@@ -5,7 +5,7 @@ getlist.zimuzu = "星空字幕组"
 link = getlist.link
 day = 0
 getlist.getList(getlist.name)
-#print(link)
+print(link)
 print(day)
 dl_list = database.load(day)
 print(dl_list)
