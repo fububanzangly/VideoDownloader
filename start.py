@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import getlist,download,time,database
-getlist.name="进击的巨人"
-getlist.zimuzu = "星空字幕组"
-link = getlist.link
-day = 0
-getlist.getList(getlist.name)
-print(link)
-print(day)
-dl_list = database.load(day)
-print(dl_list)
+dl_list = database.load(0)
+for name in dl_list:
+    for key in name:
+        print(key + "==>"+name[key])
+        getlist.name = key
+        getlist.zimuzu = name[key]
+        link = getlist.link
+        getlist.getList(getlist.name)
+        print(link)
 #download.aria2(link[0])
