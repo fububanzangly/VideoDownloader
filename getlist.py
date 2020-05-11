@@ -16,7 +16,7 @@ def getList(name):
     soup = BeautifulSoup(reg.text, 'html5lib')
     for link in soup.select('li[class="uk-grid uk-grid-collapse"]'):
         list.append(link.select('a[class="uk-text-break"]'))
-    with open("temp.html", 'w') as f:
+    with open("temp.html", 'w',encoding='utf-8') as f:
         for i in list:
             f.write(str(i)[1:-1]+"\n")
     f.close()
