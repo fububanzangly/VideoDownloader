@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f135869-39d3-4450-b518-d37077a28c37" name="Default Changelist" comment="" />
+    <list default="true" id="6f135869-39d3-4450-b518-d37077a28c37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VideoDownloader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VideoDownloader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/temp.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.start">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -163,6 +168,7 @@
       <workItem from="1588861436992" duration="1430000" />
       <workItem from="1588862882866" duration="134000" />
       <workItem from="1589209990563" duration="5000" />
+      <workItem from="1589288900900" duration="442000" />
     </task>
     <servers />
   </component>
@@ -197,10 +203,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588860679561" />
-    <state x="656" y="131" key="#start" timestamp="1588858468365">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="492" y="54" key="#start" timestamp="1589289003825">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="656" y="131" key="#start/0.0.1920.1080@0.0.1920.1080" timestamp="1588858468365" />
+    <state x="492" y="54" key="#start/0.23.1440.801@0.23.1440.801" timestamp="1589289003825" />
     <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1588861004982">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -221,18 +228,19 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588862870805" />
-    <state x="228" y="260" key="SettingsEditor" timestamp="1588862866270">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="171" y="102" key="SettingsEditor" timestamp="1589289212645">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="228" y="260" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1588862866270" />
+    <state x="171" y="102" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1589289212645" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588861328508">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1588861328508" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/VideoDownloader$start.coverage" NAME="start Coverage Results" MODIFIED="1588861808603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VideoDownloader$app.coverage" NAME="app Coverage Results" MODIFIED="1573017243832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VideoDownloader$start.coverage" NAME="start Coverage Results" MODIFIED="1588861808603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VideoDownloader$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1558083978173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
