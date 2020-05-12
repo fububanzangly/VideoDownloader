@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-import getlist,download,time,database
+import website.dongmanhuayuan,download_plugins.aria2,time,database
 dl_list = database.load(0)
 for name in dl_list:
     for key in name:
         print(key + "==>"+name[key])
-        getlist.name = key
-        getlist.zimuzu = name[key]
-        link = getlist.link
-        getlist.getList(getlist.name)
+        website.dongmanhuayuan.name = key
+        website.dongmanhuayuan.zimuzu = name[key]
+        link = website.dongmanhuayuan.link
+        website.dongmanhuayuan.getList(website.dongmanhuayuan.name)
         print(link)
-#download.aria2(link[0])
+#download_plugins.aria2.download(link[0])

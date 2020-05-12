@@ -1,6 +1,6 @@
 import requests
 import json
-def aria2(download_url):
+def download(download_url):
     url = 'http://192.168.1.136:6800/jsonrpc'
     json_rpc = json.dumps({
         'id': '',
